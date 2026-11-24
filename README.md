@@ -1,6 +1,6 @@
 # Ecommerce API
 
-API construída com Rails 8, Ruby 3.3.1 e PostgreSQL. Ela usa Solid Cache e
+API construída com Rails 8, Ruby 3.3.14 e PostgreSQL. Ela usa Solid Cache e
 Solid Queue, que também armazenam dados no PostgreSQL.
 
 ## Pré-requisitos
@@ -8,7 +8,7 @@ Solid Queue, que também armazenam dados no PostgreSQL.
 Escolha uma das formas de execução abaixo:
 
 - **Com Docker:** Docker Engine e Docker Compose v2.
-- **Sem Docker:** Ruby 3.3.1, Bundler e PostgreSQL instalados localmente.
+- **Sem Docker:** Ruby 3.3.14, Bundler e PostgreSQL instalados localmente.
 
 O arquivo `config/master.key` é necessário para iniciar o Rails em produção.
 Ele não é versionado e não deve ser enviado para o repositório.
