@@ -81,6 +81,7 @@ test:
 production:
   primary: &primary_production
     <<: *default
+    host: <%= ENV['POSTGRES_HOST'] || 'postgres' %>
     database: ecommerce_api_production
     username: ecommerce_api
     password: <%= ENV["ECOMMERCE_API_DATABASE_PASSWORD"] %>
